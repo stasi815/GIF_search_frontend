@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GIF search</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <main>
+        <header>
+            <h1>Search for GIFS!</h1>
+        </header>
         <form id="search-form">
             <input id="input-search" placeholder="Search">
-            <button type="submit">Submit</button>
-        </form>
+            <button type="submit" style="background-color: rgba(0, 229, 255, 0.66);">Submit</button>
+        </form><br>
         <div id="container"></div>
         </div>
     </main>
+    <footer>
+        <p class="footer-text">Made with 🕉 using the <a href="https://giphy.com/"> GIPHY </a> API</p>
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>
